@@ -10,6 +10,7 @@ namespace Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib
 {
     public class DataService
     {
+        
 
     }
 }
