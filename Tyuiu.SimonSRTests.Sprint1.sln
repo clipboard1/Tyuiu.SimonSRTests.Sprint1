@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint1.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{DA3B82C8-0B45-46EF-9C51-81FB7F9630C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib", "Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib\Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib.csproj", "{CA04A538-7F7E-4CE9-ABFA-7634C9CCD177}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint1.Task2V10.Lib", "Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib\Tyuiu.SimonSRTests.Sprint1.Task2V10.Lib.csproj", "{CA04A538-7F7E-4CE9-ABFA-7634C9CCD177}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
