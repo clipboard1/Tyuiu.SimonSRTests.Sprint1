@@ -1,4 +1,10 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib
 {
@@ -6,7 +12,7 @@ namespace Tyuiu.SimonSRTests.Sprint1.Task2.V10.Lib
     {
         public double ConvertMetreToInchs(int value)
         {
-           return 2;
+            return 2;
         }
     }
 }
