@@ -13,7 +13,7 @@ namespace Tyuiu.SimonSRTests.Sprint99.Task99.V99.Lib
     {
         public string GenerateTxtFile()
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\hello.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\he\llo.txt";
             StreamWriter f = new StreamWriter(path);
             f.WriteLine("101");
             f.Close();
