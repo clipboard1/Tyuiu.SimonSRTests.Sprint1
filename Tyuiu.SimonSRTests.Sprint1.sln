@@ -5,11 +5,11 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{12478625-6E6B-43C3-A7EF-52A717EF2072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint1Task0V10.Lib", "Tyuiu.SimonSRTests.Sprint1Task0V10.Lib\Tyuiu.SimonSRTests.Sprint1Task0V10.Lib.csproj", "{4F811536-499B-4D13-A09B-0A2D9B486067}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.SimonSRTests.Sprint1Task0V10.Lib", "Tyuiu.SimonSRTests.Sprint1Task0V10.Lib\Tyuiu.SimonSRTests.Sprint1Task0V10.Lib.csproj", "{4F811536-499B-4D13-A09B-0A2D9B486067}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{7F9D6C16-5606-4FA9-B3F5-46189F278AD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint1.Task1.V10.Lib", "Tyuiu.SimonSRTests.Sprint1.Task1.V10.Lib\Tyuiu.SimonSRTests.Sprint1.Task1.V10.Lib.csproj", "{C38BDE25-59BE-459D-910A-A1C7DF804C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.SimonSRTests.Sprint1.Task1.V10.Lib", "Tyuiu.SimonSRTests.Sprint1.Task1.V10.Lib\Tyuiu.SimonSRTests.Sprint1.Task1.V10.Lib.csproj", "{C38BDE25-59BE-459D-910A-A1C7DF804C27}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{DA3B82C8-0B45-46EF-9C51-81FB7F9630C7}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{AD8B2A19-A1DF-4B7D-952C-47A632787560}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint1.Task4.V10.Lib", "Tyuiu.SimonSRTests.Sprint1.Task4.V10.Lib\Tyuiu.SimonSRTests.Sprint1.Task4.V10.Lib.csproj", "{2BC9701E-0257-438C-8B26-BAB8882881E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task99", "Task99", "{F712FA83-59E6-45BC-A619-7679273BA194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.SimonSRTests.Sprint99.Task99.V99.Lib", "Tyuiu.SimonSRTests.Sprint99.Task99.V99.Lib\Tyuiu.SimonSRTests.Sprint99.Task99.V99.Lib.csproj", "{02022922-AAE4-42CF-99B2-2882DAF88992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{2BC9701E-0257-438C-8B26-BAB8882881E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC9701E-0257-438C-8B26-BAB8882881E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC9701E-0257-438C-8B26-BAB8882881E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02022922-AAE4-42CF-99B2-2882DAF88992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02022922-AAE4-42CF-99B2-2882DAF88992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02022922-AAE4-42CF-99B2-2882DAF88992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02022922-AAE4-42CF-99B2-2882DAF88992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{201D20F2-E179-4D7A-907C-46C5DC330BE5} = {DA3B82C8-0B45-46EF-9C51-81FB7F9630C7}
 		{2F03164E-82A7-4F9D-AB4F-60C6DA372D1B} = {76C93FCE-906C-4405-ABBD-B34AB97AF47A}
 		{2BC9701E-0257-438C-8B26-BAB8882881E0} = {AD8B2A19-A1DF-4B7D-952C-47A632787560}
+		{02022922-AAE4-42CF-99B2-2882DAF88992} = {F712FA83-59E6-45BC-A619-7679273BA194}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E83DAB4-028F-486C-BB72-7F447C393E8F}
