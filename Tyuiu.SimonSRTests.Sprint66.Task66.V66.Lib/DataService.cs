@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using tyuiu.cources.programming.interfaces;
-using tyuiu.cources.programming.interfaces.Sprint77;
+using tyuiu.cources.programming.interfaces.Sprint66;
 
 namespace Tyuiu.SimonSRTests.Sprint66.Task66.V66.Lib
 {
