@@ -14,7 +14,7 @@ namespace Tyuiu.SimonSRTests.Sprint66.Task66.V66.Lib
         public string GenerateByteTxtFile()
         {
             string path = $@"{Directory.GetCurrentDirectory()}\hello.txt";
-            using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate),Encoding.ASCII))
+            using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate),Encoding.UTF8))
             {
                 writer.Write("101");
             }
