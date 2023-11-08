@@ -12,7 +12,7 @@ namespace Tyuiu.SimonSRTests.Sprint88.Task88.V88.Lib
     {
         public string ReadTxtFile()
         {
-            string result = System.IO.File.ReadAllText(@"C:\TestFiles\Test1.txt").Trim();
+            string result = System.IO.File.ReadAllText(@"C:\TestFiles\Test1.txt").Trim(); //Будем держать файлы на диске С в подготовленной папке.
             return result;
         }
     }
