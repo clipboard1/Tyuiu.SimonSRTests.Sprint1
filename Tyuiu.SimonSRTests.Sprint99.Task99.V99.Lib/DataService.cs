@@ -15,7 +15,7 @@ namespace Tyuiu.SimonSRTests.Sprint99.Task99.V99.Lib
         {
             string path = $@"{Directory.GetCurrentDirectory()}\hello.txt";
             StreamWriter f = new StreamWriter(path);
-            string result = (5*5).ToString();
+            string result = "1;2;3\r\n4;5;6\r\n7;8;9";
             f.WriteLine(result);
             f.Close();
             return path;
