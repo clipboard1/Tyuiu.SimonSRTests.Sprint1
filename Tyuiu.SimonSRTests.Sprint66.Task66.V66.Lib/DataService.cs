@@ -16,15 +16,9 @@ namespace Tyuiu.SimonSRTests.Sprint66.Task66.V66.Lib
             string path = $@"{Directory.GetCurrentDirectory()}\hello.bin";
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate),Encoding.UTF8))
             {
-                int result = Calculate(101);
-                writer.Write(BitConverter.GetBytes(result));
+                writer.Write(BitConverter.GetBytes(101));
             }
             return path;
-        }
-
-        private int Calculate(int x)
-        {
-            return x;
         }
     }
 }
