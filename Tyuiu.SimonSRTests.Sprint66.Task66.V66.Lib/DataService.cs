@@ -13,10 +13,10 @@ namespace Tyuiu.SimonSRTests.Sprint66.Task66.V66.Lib
     {
         public string GenerateByteTxtFile()
         {
-            string path = $@"{Directory.GetCurrentDirectory()}\hello.txt";
+            string path = $@"{Directory.GetCurrentDirectory()}\hello.bin";
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate),Encoding.UTF8))
             {
-                writer.Write("101");
+                writer.Write(BitConverter.GetBytes(101));
             }
             return path;
         }
